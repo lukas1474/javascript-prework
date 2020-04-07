@@ -49,5 +49,5 @@ if(computerMove == 'kamień' && playerMove == 'papier'){
   } else if(computerMove == 'kamień' && playerMove == 'kamień'){
     printMessage('Remis');
   } else if(playerMove == 'nieznany ruch'){
-    printMessage('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');
+    printMessage('Wybierz swój ruch! 1: kamien, 2: papier, 3: nożyce.');
   }
