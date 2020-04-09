@@ -1,0 +1,85 @@
+/* Global */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.page-title {
+    font-size: 30px;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    margin: 20px;
+    //border-style: solid;
+}
+
+.point-click {
+    text-align: center;
+    //border-style: solid;
+
+}
+
+#play-rock {
+    background-color: white; 
+    border: none;
+    color: black;
+    border: 2px solid green;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+#play-rock:hover {
+    background-color: green; 
+    color: white;
+
+}
+
+#play-paper {
+    background-color: white; 
+    border: none;
+    color: black;
+    border: 2px solid blue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+#play-paper:hover {
+    background-color: blue; 
+    color: white;
+}
+
+#play-scissors {
+    background-color: white; 
+    border: none;
+    color: black;
+    border: 2px solid red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+#play-scissors:hover {
+    background-color: red; 
+    color: white;
+}
+
+#messages {
+    padding: 25px;
+    //border-style: solid;
+    text-align: center;
+}
