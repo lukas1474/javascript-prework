@@ -14,7 +14,7 @@ function getMoveName(argMoveId){
 
 function displayResult(argComputerMove, argPlayerMove){
   if(argComputerMove == 'kamień' && argPlayerMove == 'papier'){
-    printMessage ('Ty wygrywasz!').fontColor='green';
+    printMessage ('Ty wygrywasz!');
   } if(argComputerMove == 'papier' && argPlayerMove == 'kamień'){
     printMessage('Przegrywasz');
   } if(argComputerMove == 'nożyce' && argPlayerMove == 'kamień'){

@@ -3,10 +3,26 @@
   box-sizing: border-box;
 }
 
+header {
+  padding: 15px;
+  background-color: black;
+}
+
 .page-title {
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: bold;
   padding: 15px 32px;
+  color: white;
   text-align: center;
+}
+
+.rules {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.rules ul {
+  list-style: none;
 }
 
 .container {
@@ -27,7 +43,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 35px;
   transition-duration: 0.4s;
 }
 
@@ -45,7 +61,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 35px;
   transition-duration: 0.4s;
 }
 
@@ -63,7 +79,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 35px;
   transition-duration: 0.4s;
 }
 
@@ -73,7 +89,7 @@
 }
 
 #messages {
-  padding: 25px;
   text-align: center;
+  margin: 25px;
 }
 /*# sourceMappingURL=style.css.map */
