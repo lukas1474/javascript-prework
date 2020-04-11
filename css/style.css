@@ -92,4 +92,9 @@ header {
   text-align: center;
   margin: 25px;
 }
+
+#messages {
+  text-align: center;
+  color: blue;
+}
 /*# sourceMappingURL=style.css.map */
